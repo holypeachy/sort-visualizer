@@ -29,7 +29,7 @@ class Program
             for (int i = 0; i < numberOfAsync; i++)
             {
                 // * To change the algorithm change ths method
-                Task.Run(() => BubbleSort());
+                Task.Run(() => GnomeSort());
             }
         });
 
